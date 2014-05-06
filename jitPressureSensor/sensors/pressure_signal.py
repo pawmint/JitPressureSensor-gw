@@ -5,12 +5,10 @@ from ubiGATE.ubigate.utils.logger import logger
 
 
 def matches(signal):
-    """@todo: Docstring for matches.
-
-    :signal: @todo
-    :returns: @todo
-
     """
+    Analyse the inputs and write them a standard way
+    """
+
     #Chair,2014-05-06 12:55:09.101,0,0,0,0,0,0,0,0
     logger.debug('Checking pressure for signal "%s"' % signal)
 

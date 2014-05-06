@@ -10,9 +10,16 @@ from sensors import pressure_signal
 
 
 def get_signal():
+    """
+    Read the shell inputs
+    """
+
     return sys.stdin.readline()
 
 def gather_data(signal):
+    """
+    Call the 'matches' methode in order to analyse the inputs and to write them a standard way
+    """
 
     data = None
     data = pressure_signal.matches(signal)
